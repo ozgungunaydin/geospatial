@@ -1,1 +1,1 @@
-some codes to handle geospatial big data using python
+in this folder, you can find some python scripts to handle geospatial big data.
