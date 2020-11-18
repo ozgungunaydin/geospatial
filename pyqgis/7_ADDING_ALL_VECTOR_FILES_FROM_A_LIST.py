@@ -1,4 +1,4 @@
-# ADDING VECTOR FILES TO PROJECT FROM A LIST
+# ADDING ALL VECTOR FILES TO PROJECT FROM A LIST
 # ____________________________________________________________________________________________________________
 # iterate through list of paths to be used
 for building_shp in all_buildings_shp:
