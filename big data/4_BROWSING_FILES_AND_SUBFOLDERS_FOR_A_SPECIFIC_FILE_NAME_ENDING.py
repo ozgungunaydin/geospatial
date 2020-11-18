@@ -9,6 +9,7 @@ all_buildings_shp = []
 # set your main file path
 main_file = 'some_folder_name'
 # for all the files in subfolders of the main folder
+print('browsing the files...')
 for (roots, dirs, files) in os.walk(main_file):
 	# iterate one by one
     for file in files:
@@ -16,4 +17,5 @@ for (roots, dirs, files) in os.walk(main_file):
     	if file.endswith('EDIFICI.shp'):
     		# add the file name path to the list
     		all_buildings_shp.append(roots + '/' + file)
+print('done!')
 # ____________________________________________________________________________________________________________
