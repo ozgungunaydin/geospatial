@@ -51,7 +51,7 @@ for rar_file in rar_files:
         z_file.write(r.content)
 print('done!')
 
-# if we were going to download a single file from a single url:
+# if we were going to download a single file from a single url (first, activate urllib.request import in the beginning):
 
 # url = 'http://opendata.regione.abruzzo.it/opengeodata/Dati_raster/2007%20-%20DTM%2010x10/326150_DTM10x10.rar'
 # print('downloading the file with urllib2...')
