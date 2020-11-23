@@ -5,7 +5,7 @@ import os
 # Requests is an HTTP library
 import requests
 # urllib.request is a Python module for fetching URLs
-import urllib.request
+# import urllib.request
 # Beautiful Soup is a Python library for pulling data out of HTML and XML files
 from bs4 import BeautifulSoup
 
